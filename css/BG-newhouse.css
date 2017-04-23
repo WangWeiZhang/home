@@ -1,0 +1,237 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+#box{
+	position:relative;
+	width:1349px;
+	*width:1345px;
+   /* margin:0 auto;*/
+}
+#nav{
+	border-bottom:1px solid #ccc;
+	margin-bottom: 25px;
+}
+#lll{
+	float:left;
+	position:relative;
+}
+#lll #loupanshaixuan{
+	width:875px;
+	height:140px;
+	border:1px solid #ccc;
+	margin-left:75px;
+	margin-top:-1px;
+}
+h3.h{
+	text-align: center;
+	line-height: 40px;
+	width:98px;
+	height:40px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom:none;
+	margin-left:75px;
+	position:relative;
+	background-color: #fff;
+}
+#loupanshaixuan>ul.quyu{
+	list-style-type: none;
+	width:875px;
+	height:50px;
+	font-size: 14px;
+	margin-top:10px;
+}
+#loupanshaixuan>ul.quyu>li{
+	float:left;
+	padding:8px;
+	color:#777777;
+}
+#loupanshaixuan>ul.jiawei{
+	clear:left;
+	list-style-type: none;
+	width:875px;
+	height:50px;
+	font-size: 14px;
+
+}
+#loupanshaixuan>ul.jiawei>li{
+	float:left;
+	padding:8px;
+	color:#777777;
+}
+#loupanshaixuan li:not(.li1):hover{
+	background-color:teal;
+	color:#fff;
+	font-weight: bold;
+}
+#left{
+	margin-left:75px;
+	width:875px;
+}
+#left>p{
+	width:875px;
+	height:40px;
+	background-color: #fafafa;
+	line-height: 40px;
+	margin-top:8px;
+	font-size:14px;
+	color:#777777;
+	letter-spacing: 1px;
+}
+#left>p>span{
+	display:inline-block;
+	width:68px;
+	height:40px;
+	float:right;
+	text-align: center;
+}
+#left>p>span:hover{
+	background:#fff;
+}
+#left>.f1,#left>.f2,#left>.f3,#left>.f4,#left>.f5,#left>.f6,#left>.f7,#left>.f8,#left>.f9,#left>.f10{
+	width:875px;
+	height:180px;
+	margin-top: 30px;
+	border-bottom:1px solid #ccc;
+	/*margin-left:75px;*/
+	/*position:relative;*/
+}
+#left div.pic{
+	width:280px;
+	height:140px;
+	float:left;
+
+}
+#left div.jieshao{
+	width:585px;
+	margin-left:290px;
+}
+#left div.jieshao>h3{
+	color:#001755;
+	font-size:18px;
+	padding-top:10px;
+}
+#left div.jieshao>h3>span.price{
+	font-size:18px;
+	color:#f46d1b;
+	float:right;
+}
+#left div.jieshao>p{
+	font-size:14px;
+	color:#777777;
+	margin-top:8px;
+}
+#left div.jieshao>p.p3{
+	height:30px;
+	margin-top: 25px;
+	line-height: 30px;
+}
+#left div.jieshao span.hxt{
+	background-image:url(../img/BG/images/newhouse_15.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+    padding:0px 30px;
+    display: inline-block;
+
+}
+#left div.jieshao span.xmt{
+	background-image:url(../img/BG/images/newhouse_17.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding:0px 30px;
+	 display: inline-block;
+}
+#left div.jieshao span.jtt{
+	background-image:url(../img/BG/images/newhouse_19.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding:0px 30px;
+	 display: inline-block;
+}
+#left div.jieshao img{
+/*	width:30px;*/
+	height:30px;
+	display: inline-block;
+	vertical-align:middle;
+	float:right;
+	border:none;
+}
+#left div.jieshao p:not(.p3):hover{
+	background: #fb8b4c;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+}
+#left div.jieshao p.p3:hover{
+	font-size:18px;
+	color:#fb8b4c;;
+}
+#right{
+	width:300px;
+	float:right;
+	margin-left:1000px;
+	position:absolute;
+	margin-top:15px;
+}
+#right h3{
+	border-bottom:2px solid #ccc;
+	margin-bottom:16px;
+}
+#right div.right1{
+	width:300px;
+	height:90px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:16px;
+}
+#right .right1>img{
+	width:120px;
+	height:60px;
+	float:left;
+}
+#right .right1 div.wenzi{
+	width:170px;
+	height:100px;
+	float:left;
+	font-size: 14px;
+	margin-left:8px;
+}
+#right .right1 div.wenzi>p>a:link{
+	color:#001755;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:14px;
+}
+#right .right1 div.wenzi>p>a:hover{
+   font-size:18px;
+   color:#777777;
+}
+#yema{
+	margin-top:25px;
+	margin-bottom:35px;
+	height:25px;
+}
+#yema p{
+	width:870px;
+	height:100px;
+}
+#yema p a{
+	display:block;
+	float:right;
+	text-align:center;
+	width:25px;
+	height:25px;
+	line-height: 25px;
+	border:1px solid #ccc;
+	margin:5px;
+	color:#777777;
+}
+#yema p a:hover{
+	background-color:#00f; 
+	color:#fff;
+}
+#footer{
+	clear:both;
+}

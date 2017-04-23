@@ -1,0 +1,51 @@
+h2,h3,ul,li,a,p{margin:0px; padding:0px;}
+a{text-decoration:none;}
+img{vertical-align:top; border:none;}
+ul{list-style:none;}
+#main div.banner{width:1349px; +width:1345px;height:550px; background:url(../img/index1-img/banner.png) no-repeat center top; 
+                 margin:0px auto; position:relative;}
+#main div.banner img{ position:absolute; bottom:0px; left:50%; margin-left:-281px;}
+#main .banner2{ width:1349px; +width:1345px;height:386px; background:url(../img/index1-img/banner2.png) no-repeat center top;margin:0px auto;}
+/*上下两个产品公共样式布局*/
+div.ibox,div.ibox2{width:1200px; height:428px; margin:0px auto; overflow:hidden;}
+div.ibox div.ibox-left,div.ibox2 div.ibox2-left{width:877px; height:404px;  float:left; /*border:1px solid #000;*/}
+div.ibox div.ibox-right,div.ibox2 div.ibox2-right{width:300px; height:404px;float:right;/*border:1px solid #000;*/ }
+/*公共的标题 部分*/
+.title{    margin-top: 30px;padding: 10px 0px;border-bottom: 2px solid #ff5f15; position: relative;
+                     overflow: hidden;width: 877px;}
+.title h3{float:left; color:#ff5f11; font-weight:normal;}
+.title .splic-a{color: #666;float:left;    margin-left:412px;font-size:13px;}
+.title .style-a{margin-left: 738px; color:#666; font-size:13px;}
+.title ul{overflow:hidden;float:left; margin-left:45px;}
+.title ul li{float:left; padding:0px 10px; }
+.title ul li a{color:#666; font-size:14px;}
+.title2{width:300px;}
+.title2 h3{color:#5d5d5d;}
+div.ibox-left .sp-a{display:block; width:274px; height:293px; margin-top:30px; position:relative; color:#666;
+                    float:left; margin-left:11px; border:2px solid #e3e3e3;}
+div.ibox-left .sp-a:hover{border:2px solid #ff5f15;}                   
+div.ibox-left .sp-a img{width:274px; margin-bottom:15px;}
+div.ibox-left h3{ display:inline;}
+div.ibox-left small{color:#999; position:relative; top:0px; left:129px;}
+div.ibox-left p{margin:25px 9px; font-size:14px;}
+
+div.ibox-left p .span1,div.ibox-left p .span2{display: block;float: left;width: 38px;height: 18px;
+                       text-align: center;line-height: 18px;border-radius: 4px;color: #fff;margin-right: 4px;background: #ff5f15;}
+div.ibox-left .span3{display: block;width: 55px;height: 30px;line-height: 30px;background:rgba(0,0,0,0.5);color: #fff;position: absolute;
+                     top: 107px;text-align: center;}
+div.ibox-left p .span2{background:#707070; }
+
+div.ibox-right .maquree{width:295px; overflow:hidden; height:293px; border:1px solid #ccc;margin-top:30px;}
+div.ibox-right .maquree .one-div{width:295px; height:30px;line-height: 30px; background:#eff8ff; }
+div.ibox-right .maquree span{margin-right:34px;}
+div.ibox-right .maquree .two-div span{font-size:12px;}
+div.ibox-right .maquree .two-div p{padding: 4px 2px;border-bottom: 1px dashed #ccc;}
+/*下面的产品部分*/
+.ibox2 .ibox2-left .sp-a{display:block; float:left; width:272px; height:279px; margin-top:30px; margin-left:11px;
+                         border:2px solid #ccc;}
+.ibox2 .ibox2-left .sp-a:hover{border:2px solid #ff5f15;}                       
+.ibox2 .ibox2-left .sp-a p{margin:12px;color:#666;}
+.ibox2 .ibox2-left .sp-a span{margin-left:12px;color:#666;}
+.ibox2 .ibox2-left img{width:272px; height:210px;} 
+.ibox2 .ibox2-right .erweima{width:300px; height:281px; background:#ff0; margin-top:30px;}
+.ibox2 .ibox2-right .erweima img{width:300px; height:281px;}

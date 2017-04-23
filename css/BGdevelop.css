@@ -1,0 +1,161 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#main{
+	position:relative;
+}
+#banner{
+	width:1349px; 
+	*width:1345px;
+	position:relative;
+}
+#banner #bd{
+    position:absolute;
+    width:255px;
+    height:380px;
+    right:118px;
+    top:68px;
+    background-color: #ededed;
+}
+#banner #bd h3{
+	width:180px;
+	height:35px;
+	background: #f14730;
+	margin:0 auto;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+	margin-bottom:26px;
+}
+#banner #bd p.tb{
+	text-align: center;
+	*border:0px;
+}
+#banner #bd p.shuru{
+	margin-left:15px;
+	font-size:14px;
+	color:#656565;
+	margin-bottom:10px;
+}
+#banner #bd p input{
+	margin-left:16px;
+	margin-bottom:15px;
+	width:220px;
+	height:30px;
+}
+#banner #bd #rad{
+	margin-left:16px;
+}
+#banner #bd #btn{
+	margin:15px 38px;
+	width:177px;
+	height:35px;
+	border-radius: 5px;
+	background: #f04534;
+}
+#banner #bd p.ts{
+	margin-left:28px;
+	color:#656565;
+	font-size:14px;
+}
+#banner #bd p.ts a{
+	color:#d13f42;
+}
+#banner #bd p.ts a img{
+    vertical-align: bottom;
+    *border:0px;
+}
+div.con1{
+	width:1349px;
+	height:560px;
+	background-color: #fff;
+	position:relative;
+}
+div.con2{
+	width:1349px;
+	height:560px;
+	background-color: #eeeeee;
+	position:relative;
+}
+#main div.con1 a{
+	display:block;
+	float:left;
+	margin-left:105px;
+	margin-top:95px;
+}
+#main div.con1 div.r{
+	float:right;
+	width:640px;
+	height:240px;
+	position:absolute;
+	top:155px;
+	right:70px;
+}
+#main div.con2 div.l{
+	float:left;
+	width:640px;
+	height:240px;
+	position:absolute;
+	top:155px;
+	left:105px;
+}
+#main div.con2 a{
+	display:block;
+	float:right;
+	margin-right:120px;
+	margin-top:65px;
+}
+ div.con1 span.bt1{
+	position:absolute;
+	left:105px;
+	top:45px;
+	display:block;
+	float:left;
+    width:63px;
+    height:57px;
+}
+div.con2 span.bt2{
+	position:absolute;
+	left:105px;
+	top:45px;
+	display:block;
+	float:left;
+    width:63px;
+    height:57px;
+}
+div.con1 p.p1>img,div.con2 p.p1>img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+div.con1 p.p1,div.con2 p.p1{
+	color:#323232;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.con1 p,div.con2 p{
+	font-size:14px;
+	letter-spacing: 1px;
+	margin-top:15px;
+}
+#video{
+	width:1349px;
+	height:630px;
+	position:relative;
+	/*margin:140px auto;*/
+	background-image: url(../img/BG/images/developer_00.png);
+	background-repeat:repeat-x;
+
+}
+#video p{
+	position:relative;
+	top:50px;
+	text-align:center;
+	font-size: 30px;
+	font-weight:bold;
+}
+#video div img{
+	position:relative;
+	top:110px;
+	left:316px;
+}

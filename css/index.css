@@ -1,0 +1,24 @@
+body,h1,h2,h3,h4,h5,h6,div,ul,li,a,span,p,ul{margin:0px;padding:0px; font-family:Arial;}
+img{vertical-align:top;}
+ul{list-style:none;}
+#main{width:1349px; height:610px;margin:0px auto; background:#f0f0f0;}
+#main .one-main,#main .two-main,#main .three-main{margin:0px auto;}
+#main .one-main{width:1200px; height:80px; line-height:83px;  overflow:hidden;}
+#main .one-main h3{float:left;}
+#main .one-main span{float:left; font-size:13px;}
+#main .one-main a{color:#fff;}
+#main .one-main .one-span{margin-left:849px; margin-right:8px;+margin-right:11px;}
+#main .one-main .two-span{display: block;width: 130px;text-align: center;height: 35px;line-height: 36px;
+                          margin-top: 21px; background:#ff5f15; cursor:; border:1px solid #ff5f15; border-radius:5px;}
+
+#main .two-main{overflow:hidden; width:1200px;}
+#main .two-main div{wdith:227px; position:relative; overflow:hidden; float:left; margin-left:12px;}
+#main .two-main div p{width: 216px;padding-left: 10px;height: 35px;line-height: 35px;background: rgba(0,0,0,0.2);position: absolute;
+                     top: 301px;left: 0px;color: #fff;}
+#main .two-main img:hover{transform:scale(1.5,1.5); transition-property:all; transition-duration:1s;}
+#main .three-main{ width:1200px;}
+#main .three-main ul{overflow:hidden;    height: 46px;line-height: 46px;}
+#main .three-main ul li{float:left; padding:0px 30px;}
+#main .three-main ul li:first-child{padding:0px 0px; font-size:15px;}
+#main .three-main ul li a:link,#main .three-main ul li a:visited{color:#666; }
+#main .three-main ul li a:hover{color:#ff5f15;}

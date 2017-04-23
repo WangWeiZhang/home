@@ -1,0 +1,30 @@
+
+/*头部部分*/
+a{text-decoration:none;}
+body,#nav{font-family:Arial; margin:0px; padding:0px;}
+#nav{font-size:14px; width:1349px; *width:1345px; height:80px; margin:0px auto; /*overflow:hidden;*/*zoom:1;}
+#nav a{display:block; color:#666; }
+#nav div.out-box{ margin:0px; padding:0px;width:1200px; *width:1196px; height:80px; margin:0px auto; background:#fff;}
+#nav div.out-box img{float:left; margin:5px 15px 5px 0px;}
+#nav div.out-box p{margin:0px; padding:0px; float:left; border-left: 1px solid #d8d8d8; height:32px; line-height:32px; 
+                   margin-top:24px; *margin-top:24px; }
+#nav div.out-box p a{margin-left:13px; display:block; width:50px;
+                     background:url(../img/nav/nav.jpg) no-repeat 34px 12px;}
+#nav ul{margin:0px; padding:0px; float:left; width:510px; height:70px; text-align:center;  line-height:70px; list-style:none;  
+        padding-left:40px;overflow:hidden;}
+#nav ul li{margin:0px; padding:0px; float:left; padding:0px 20px; _width:100px; _padding:0px; }
+#nav ul li a{height:70px;}
+#nav ul li a{ border-top:5px solid #fff;}
+#nav ul li a.starta{border-top:5px solid #ff5f15;}
+#nav ul li a:hover{color:#ff5f15; border-top:5px solid #ff5f15;}
+#nav .out-box div{margin:0px; padding:0px; float:right; height:40px; margin-top:20px; 
+                  _margin-top:20px;  border:1px solid #d8d8d8;
+                  border-radius:5px;}
+#nav .f1{float:left; margin-top:11px;}
+#nav .span1{  display:block;  width: 70px;text-align: center; background:url(../img/nav/nav.jpg) no-repeat 55px 6px;}
+#nav .but2{margin:0px; padding:0px; width: 98px;height: 40px;margin: 0px 0px;border: none;border-top: 1px solid #ff5f15;
+          background:#ff5f15; *border:none; font-size: 16px;color: #fff;}
+#nav .input1{margin-right:30px; border:none; border-left:1px solid #d8d8d8;}
+
+/*默认样式*/
+

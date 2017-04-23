@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#h{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #606060;
+}
+#content{
+	width: 980px;
+	margin: 0 auto;
+	color: #606060;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #606060;
+}
+ul{
+	list-style: none;
+}
+#content p a:last-child{
+	color: #e76f3a;
+}
+.pd30{
+	padding: 30px 0;
+}
+.box1{
+	width: 100%;
+	height: 194px;
+	border:solid 1px #ccc;
+	border-top: solid 1px #e76f3a;
+	padding-top: 12px;
+	position: relative;	
+}
+.box1 img{
+	padding-left: 12px;
+	width: 263px;
+	height: 210px;
+}
+.box1 ul{
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	width: 600px;
+}
+.box1 ul li{
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	float: left;
+}
+.or{
+	background: #f7dccc;
+	border-left: solid 3px #ff590c;
+	margin: 20px 0;
+	height: 30px;
+	line-height: 30px;
+}
+.or span{
+	color:#ff590c;
+}
+.pic{
+	margin: 20px 0 0;
+	height: 190px;
+	border-bottom: solid 1px #ccc;
+	position: relative;
+	font-family: "微软雅黑";	
+}
+.pic img:first-child{
+	width: 190px;
+	height: 170px;
+}
+.pic .red{
+	background: #f00008;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+.pic h2{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.pic .one{
+	color: #f10005;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.pic .two{
+	position: absolute;
+	top: 35px;
+	left: 200px;
+}
+.pic .three{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	font-size: 14px;
+}
+.pic .four{
+	position: absolute;
+	top: 85px;
+	right: 80px;
+}
+.pic .five{
+	position: absolute;
+	top: 148px;
+	left: 202px;
+}
+.pic .six{
+	position: absolute;
+	top: 142px;
+	right: 80px;
+}
+.pic img.pe{
+	display: block;
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	width: 80px;
+}
+.page{
+	margin: 20px 0;
+	float: right;
+}
+.page span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border:1px solid #ccc;
+	color: #ccc; 
+	text-align: center;
+	line-height: 20px;
+}
+.page span.f{
+	background: #f34604;
+	color: #fff;
+}
+.page span:hover{
+	background: #f34604;
+	color: #fff;
+}
